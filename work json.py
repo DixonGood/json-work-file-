@@ -9,5 +9,5 @@ dict = {
     567890: ("Emma", 45),
 }
 
-with open('homework1', "w") as file:
+with open('homework1.json', "w") as file:
     json.dump(dict, file)
